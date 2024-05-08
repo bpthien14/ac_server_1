@@ -5,7 +5,8 @@ export const enum BRAND {
   LG = 'LG',
   SHARP = 'SHARP',
   SAMSUNG = 'SAMSUNG',
-  PANASONIC = 'PANASONIC'
+  PANASONIC = 'PANASONIC',
+  NEC = 'NEC'
 }
 
 export enum MODE {

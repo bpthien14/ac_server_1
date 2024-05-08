@@ -21,6 +21,7 @@ export const isLinkRequestValid = (request: LinkDeviceRequest): boolean => {
 }
 
 export const isSetDeviceRequestValid = (request: SetDeviceRequest): boolean => {
+  console.log(request)
   if (request.deviceId == undefined) return false
   if (request.userId == undefined) return false
   return true
